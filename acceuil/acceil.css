@@ -1,0 +1,64 @@
+div
+{
+	text-align:center;
+	width : 17vw;
+//	width: auto;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	float:left;
+	top:0px;
+	display:inline-block;
+}
+
+a
+{
+	border-radius:10px;
+	text-decoration:none;
+	color: #FFFFFF;
+	background-color:#555555;
+	margin :2px;
+	padding :0px;
+	display:none;
+	font-size:2vw;
+}
+
+body
+{
+	background-color: black;
+	background-image: url(file:///nfs/2015/h/hmarot/acceuil/6887749-fractal.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size: 160vh;
+	background-position:50% 50%;
+}
+
+#f
+{
+	margin-left:4px;
+	background-color:black;
+	color:#FFFFFF;
+	margin :0px;
+	padding :0px;
+	display:block;
+	border:none;
+	font-size:3vw;
+}
+
+chien
+{
+	position: fixed;
+	top: 40vh;
+	left: 2.5vw;
+}
+
+#f:hover
+{
+	background-color:#222222;
+}
+
+div:hover a
+{
+	display:block;
+	border:1px solid black;
+	font-size:2vw;
+}
