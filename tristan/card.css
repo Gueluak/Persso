@@ -1,0 +1,43 @@
+html
+{
+	background-color: #ffffff;
+	color: #2c3e50;
+}
+
+#testout
+{
+	position: absolute;
+	top: 45vw;
+
+}
+
+#tapis
+{
+	width: 90vw;
+	float: left;
+	left: 4vw;
+}
+
+#ok
+{
+	font-size: 4vw;
+	text-align: center;
+	display: inline-block;
+	border-radius: 7vw;
+	border: 1px solid black;
+	background-color: #1abc9c;
+	width: 15vw;
+	height: 7vw;
+}
+
+.token
+{
+	width: 4vw;
+}
+
+.card
+{
+	position: relative;
+	left: 38vw;
+	width: 7vw;
+}
