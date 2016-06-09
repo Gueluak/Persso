@@ -18,9 +18,15 @@ html
 	left: 4vw;
 }
 
-#ok
+#ans
 {
-	font-size: 4vw;
+	color: #ffffff;
+	background-color: #7f8c8d;
+}
+
+.button
+{
+	font-size: 3.5vw;
 	text-align: center;
 	display: inline-block;
 	border-radius: 7vw;
@@ -28,6 +34,11 @@ html
 	background-color: #1abc9c;
 	width: 15vw;
 	height: 7vw;
+}
+
+.button p
+{
+	margin-top: 1vw;
 }
 
 .token
@@ -38,6 +49,6 @@ html
 .card
 {
 	position: relative;
-	left: 38vw;
-	width: 7vw;
+	left: 39vw;
+	width: 5.5vw;
 }
