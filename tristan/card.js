@@ -316,21 +316,21 @@ function	generation()
 	}
 
 	if (card_1_color == 1)
-		$('<img class = card src = ressource/'+card_1_nb+'-pique.jpg>').appendTo($('#testout'));
+		$('<img class = card src = ressource/'+(card_1_nb + 1)+'-pique.jpg>').appendTo($('#testout'));
 	else if (card_1_color == 2)
-		$('<img class = card src = ressource/'+card_1_nb+'-carreau.jpg>').appendTo($('#testout'));
+		$('<img class = card src = ressource/'+(card_1_nb + 1)+'-carreau.jpg>').appendTo($('#testout'));
 	else if (card_1_color == 3)
-		$('<img class = card src = ressource/'+card_1_nb+'-coeur.jpg>').appendTo($('#testout'));
+		$('<img class = card src = ressource/'+(card_1_nb + 1)+'-coeur.jpg>').appendTo($('#testout'));
 	else if (card_1_color == 4)
-		$('<img class = card src = ressource/'+card_1_nb+'-trefle.jpg>').appendTo($('#testout'));
+		$('<img class = card src = ressource/'+(card_1_nb + 1)+'-trefle.jpg>').appendTo($('#testout'));
 
 	if (card_2_color == 1)
-		$('<img class = card src = ressource/'+card_2_nb+'-pique.jpg>').appendTo($('#testout'));
+		$('<img class = card src = ressource/'+(card_2_nb + 1)+'-pique.jpg>').appendTo($('#testout'));
 	else if (card_2_color == 2)
-		$('<img class = card src = ressource/'+card_2_nb+'-carreau.jpg>').appendTo($('#testout'));
+		$('<img class = card src = ressource/'+(card_2_nb + 1)+'-carreau.jpg>').appendTo($('#testout'));
 	else if (card_2_color == 3)
-		$('<img class = card src = ressource/'+card_2_nb+'-coeur.jpg>').appendTo($('#testout'));
+		$('<img class = card src = ressource/'+(card_2_nb + 1)+'-coeur.jpg>').appendTo($('#testout'));
 	else if (card_2_color == 4)
-		$('<img class = card src = ressource/'+card_2_nb+'-trefle.jpg>').appendTo($('#testout'));
+		$('<img class = card src = ressource/'+(card_2_nb + 1)+'-trefle.jpg>').appendTo($('#testout'));
 
 }
