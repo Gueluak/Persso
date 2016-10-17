@@ -1,10 +1,10 @@
 div
 {
 	text-align:center;
-	width : 17vw;
+	width : 13vw;
 //	width: auto;
-	padding-left: 1vw;
-	padding-right: 1vw;
+	padding-left: 3vw;
+	padding-right: 3vw;
 	float:left;
 	top:0px;
 	display:inline-block;
@@ -19,7 +19,7 @@ a
 	margin :2px;
 	padding :0px;
 	display:none;
-	font-size:2vw;
+	font-size:1.5vw;
 }
 
 body
@@ -31,8 +31,7 @@ body
 	background-size: 160vh;
 	background-position:50% 50%;
 }
-
-#f
+.f
 {
 	margin-left:4px;
 	background-color:black;
@@ -41,7 +40,7 @@ body
 	padding :0px;
 	display:block;
 	border:none;
-	font-size:3vw;
+	font-size:2vw;
 }
 
 chien
@@ -51,7 +50,7 @@ chien
 	left: 2.5vw;
 }
 
-#f:hover
+.f:hover
 {
 	background-color:#222222;
 }
@@ -60,5 +59,5 @@ div:hover a
 {
 	display:block;
 	border:1px solid black;
-	font-size:2vw;
+	font-size:1.5vw;
 }
